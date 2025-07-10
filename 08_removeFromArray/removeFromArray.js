@@ -1,4 +1,5 @@
 const removeFromArray = function(array, ...args) {
+    
     for (let arg of args){
         while (array.includes(arg)){
             let index = array.indexOf(arg);
